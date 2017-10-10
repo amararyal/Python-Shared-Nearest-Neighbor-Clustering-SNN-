@@ -1,9 +1,6 @@
 #Author: Amar Mani Aryal.
-<<<<<<< HEAD
 #Implementation of SNN on Python 
-=======
-#Implementation of SNN on Python by Ertöz et al. (2003).
->>>>>>> f921cf8720e35cc3daf3eb35daca2ef0dfcd4577
+#Implementation of SNN on Python by Ertöz et al.(2003).
 #Requires gmaps for google map visualization
 import sys
 import csv, io

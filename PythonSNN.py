@@ -1,5 +1,5 @@
 #Author: Amar Mani Aryal.
-#Implementation of SNN on Python
+#Implementation of SNN on Python 
 #Requires gmaps for google map visualization
 import sys
 import csv, io
@@ -13,10 +13,10 @@ from gmplot import *
 import gmaps #gmaps for google map visualization
 #Main
 if __name__=="__main__":
-    k=28
+    #k,minPoints,and eps are user defined inputs
+    k=28#Nearest Neighbor Size
     minPoints=13#defines core point
     eps=13 #defines noise
-import time
 fileName='June.csv'# Specify Input file
 
 #Method to read the File Containing the Locations and Time

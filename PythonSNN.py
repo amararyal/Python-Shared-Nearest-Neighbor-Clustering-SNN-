@@ -262,7 +262,7 @@ url = 'file://'+pth
 for i in interesting:
     gmap.scatter( clusterLong[i],clusterLat[i], colors[j], size=200, marker=False)
     j=j+1
-	#Save the visualization in html file
+    #Save the visualization in html file
     gmap.draw(pth)
     gmap.draw(nameabs)
 	
